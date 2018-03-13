@@ -1,0 +1,954 @@
+*{box-sizing: border-box;}
+.about{padding-top: 190px;width: 75%;}
+body{background:#f7f5f2;}
+.icons img,.mom{width:100%;
+  opacity: 0.4;
+  transition:0.5s;}
+  .icon1:hover img,.mom{opacity:1;}
+  .s4{background-image: url("hostel1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;}
+  .w3-row-padding{padding-top: 32px;}
+  .spo{
+    width: fit-content;
+    padding: 25px  0 !important; 
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    display:  flex;
+    position:  relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 309px;
+  }
+  .spo li{
+    cursor: pointer;
+  }
+  .bog {width: 220px;
+    height: 33px;
+    background-position: center !important;
+    background-size: 106% !important;
+    background-repeat:  no-repeat !important;}
+    .xe {
+      width: 65px;
+      height: 60px;
+      background-position: center !important;
+      background-size: 124% !important;
+      background-repeat: no-repeat !important;
+    }
+    .lab{
+      width: 60px;
+    }
+    .container8{
+      padding: 132px 0 50px 53px;
+      font-size: 23px;
+      max-width: 656px;
+      font-family:"DejaVu Sans Extra Light", sans-serif;
+    }
+    .ims img {
+      width:  100%;
+    }
+    .slider-nav .slick-list.draggable {
+      width: 50% !important;
+      margin: 0 auto;
+    }
+    #hostel2 img{
+      vertical-align:initial;
+    }
+    .no-m {
+      margin:  0px;
+    }
+    .bck{background-size: cover;
+     height: 480px;
+     background-position:  center;
+     background-repeat:  no-repeat;}
+     .no-p {
+      padding: 0px;
+    }
+    .ims a {
+      width: 100% !important;
+    }
+    .ims {
+      margin-bottom: 30px;
+    }
+    .ma {
+      margin: 0 auto;
+      padding:  0 !important;
+      width: calc(100% + 30px);
+      margin-left: -15px;
+      margin-top: 30px;
+    }
+
+
+    .menu{
+      position: fixed;
+      top: 0;
+      z-index: 10;
+      font-family: "ALK Rounded Mtav Med", sans-serif;
+      letter-spacing: 0.1em;
+      font-size: 16px;
+      text-transform: uppercase;
+      margin: 0 auto;
+      width: 100%;
+      overflow: hidden;
+      background-color:#ffffff;
+      max-width: 1600px;
+    }
+    .container3 p{
+      line-height:1.5;
+      font-size: 22px;
+      font-family: "MG Glaho Drunk", sans-serif;
+      color: #41568099;
+    }
+    .container2{
+      max-width: 1480px;
+      margin: 0 auto;
+      width: 100%;
+      position: relative;
+      background: #fff;
+    }
+    .container2{
+      max-width: 1180px;
+      margin: 0 auto;
+      width: 100%;
+      position: relative;
+      background: #fff;
+    }
+    .container6{
+      padding: 90px 15px;
+      display: block;
+      max-width: 1180px;
+      margin: 0 auto;
+      width: 100%;
+      position: relative;
+      background: #fff;}
+      header .box1 .box2{overflow:visible; }
+      .topnav2{
+       background:#fff;
+       transition:all 0.4s ease-in-out;
+       display: none;
+     }
+     .topnav2 a{
+       text-decoration:none;
+       font-size: 13px;
+       line-height:54px;
+       text-align:center;
+       color: #41567f;
+     }
+     .topnav2 li{
+       display:inline-block;
+       width: calc(50% - 0.1px);
+       border: solid 1px #bec9c9;
+     }
+     .ul{
+      display: -ms-flexbox;
+      -ms-flex-wrap: wrap;
+    }
+    .hero{
+      max-height: 700px;
+      background-color: #bec9c9;
+      display: block;
+      position: relative;
+      z-index: 2;
+      padding-top: 549px;
+    }
+    footer.main {
+      padding-top: 70px;
+    }
+    .topnav {
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      border-top: solid #415680 5px;
+      margin: 0 auto;
+      max-width: 1180px;
+      background: #ffffff;
+    }
+    .myfa a{
+      text-decoration:none;
+      display:inline-block;
+      color: #41567f;
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+      font-family: "ALK Rounded Mtav Med", sans-serif;
+    }
+    .topnav a {
+     width: 100%;
+     text-align: center;
+     color: #41568099;
+     transition: all 0.4s ease-in-out;
+     text-decoration: none;
+     line-height: 90px;
+     font-weight: normal;
+     letter-spacing: 0.1em;
+     font-size: 17px;
+     font-family: "ALK Rounded Mtav Med", sans-serif;
+   }
+
+   .topnav a:hover {
+    opacity: .5; 
+  }
+
+  .hostel{
+    font-size: 65px;
+    color: #383a35;
+    padding: 20px 0 0 1%;
+    width: 50%;
+    position: absolute;
+    top: -89px;
+    left: 25%;
+    cursor:pointer;
+  }
+  div .book{
+    color:#383a35;
+    padding-right: 30%;
+  }
+
+  .li {
+    list-style:none;
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    line-height: 1.5;
+    width: 4%;
+  }
+
+  .xss .btn-group {
+    position:  absolute;
+  }
+  .xss .btn-group:nth-child(1){
+    z-index:100;
+  }
+  .xss .btn-group:nth-child(2){
+    z-index:99; 
+  }
+  .xss .btn-group:nth-child(3){
+    z-index:98; 
+  }
+  .xss .btn-group:nth-child(4){
+    z-index:97; 
+  }
+
+  .himg{
+    background-image: url(../img/hostel1.jpg);
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+  }
+  .about a{display:inline-block;}
+  .about p{
+   font-family: "BPG Ingiri", sans-serif;
+   font-size: 19px;
+   line-height:1.5;
+   padding: 50px 0;
+   max-width: 1180px;
+ }
+ /*responsive menu*/
+ .topnav .icon {
+  display: none;
+}
+
+.container1{
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  background: #fff;
+}
+.container5 {
+  display: inline-block;
+  cursor: pointer;
+  height: 24px;
+}
+.container3{
+  padding: 0 30px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.bar1, .bar2, .bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: #bec9c9;
+  margin: 5px 0px;
+  transition: 300ms;
+}
+.bar3{width:50%;}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-4px, 3px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+  width:20px;
+}
+.responsive{display:block;}
+.icon h2{display:none;cursor:pointer; }
+/*responsive menu*/
+.fa{width:45px;}
+.container5{
+ width:45px;
+ padding: 6px 9px 9px 9px;
+}
+.logo{
+  background-color: #bec9c9;
+  margin: 0 auto;
+  max-width: 600px;
+  position: relative;
+  padding: 30px;
+  text-align: center;
+}
+.slogan{
+  font-family: "ALK Sanet", sans-serif;
+  color: #41567f;
+  font-size: 20px;
+  font-weight: normal;
+}
+.body{padding-top: 210px;}
+.myfa{
+  position:absolute;
+  right: 0;
+  width: auto;
+  top: 0;
+  display: none;
+}
+div .fa{
+  display:block;
+  color: #fff;
+  line-height: 45px;
+  font-size: 25px;
+}
+.container7{max-width:1180px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  background: #fff;}
+  .fa-facebook-official{color: #4266b2 !important;}
+  #hostel1 a{
+
+    transform: rotate(-8deg);
+
+    color: #383a35;
+    padding: 1px 0 0 4%;
+    cursor: pointer;
+    width: min-content;
+    width: max-content;
+  }
+  @media only screen and (min-width: 481px){}
+  footer.main .logo-box {
+    padding-top: 30px;
+  }
+  footer.main nav a {
+    display: block;
+    padding: 8px;
+    font-size: 27px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+  }
+  .title-box1{
+   position: absolute;
+   left: 0;
+   bottom: -108px;
+   z-index: 2;
+   display: block;
+   background-color: #415680;
+   width: 33%;
+   height: 303px;
+ }
+ .title1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family:"ALK Sanet", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  display: block;
+  width: 100%;
+  color: #bdc9c9;
+  font-size: 27.2px;
+  font-size: 1.7rem;
+  padding: 50px 60px;
+}
+.food{
+  position: absolute;
+  background: url(../img/hostel33.jpg);
+  left: 33%;
+  bottom: -108px;
+  z-index: 2;
+  display: block;
+  background-color: #c8d5e3;
+  width: 67.1%;
+  height: 382px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hostel{
+  cursor: pointer;
+  width: min-content;
+  transition: all 0.4s ease-in-out; /* Safari */
+  width: 150px;
+  height: 80px;
+  padding: 7.5px 0;
+}
+#hostel2 {
+  transition: all 0.4s ease-in-out;
+  width: 0px;
+  height: 80px;
+  padding: 7.5px 25px;
+}
+.noborder{border: solid 0 !important;
+  background: #c8d7e4;}
+
+  .clearfix:after {
+   visibility: hidden; 
+   display: block; 
+   font-size: 0; 
+   content: "";
+   clear: both; 
+   height: 0;
+ }
+ .map{
+   width: 100%;
+   height: 550px;
+   justify-content: space-between;
+   background: #c8d5e3;
+   position: relative;
+ }
+ .map1{width: calc(100% - 40%);
+  position: absolute;
+  right: 0;
+  height: 100%;}
+  .con{
+   padding: 71px 40px;
+   position: absolute;
+   left: 0;
+   width: 40%;
+ }
+ .w3-modal {z-index:101;}
+ .gallery{padding-top:138px;}
+ .con1{
+  margin-bottom: 25px;
+  max-width: 274px;
+  font-size: 30px;
+  color: #383a35;
+  text-align: left;
+}
+.btns {
+  margin: 0 15px !important;
+  box-shadow: none !important;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  line-height: 45px;
+  width: 100px;
+  padding: 0;
+  text-align:  center;
+}
+.right{width:calc(50% - 20%);
+ background-color: red;
+ position: absolute;
+ bottom:0;
+ right:0;}
+ .nav2{width:calc(50% - 10%);
+  background-color: green;}
+  footer.main nav{
+    padding: 0;
+    padding-bottom: 40px;
+    border-bottom: solid 1px #bac6d3;
+  }
+  .left{width:calc(50% - 20%);
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:orange;}
+    .icon1 {padding: 10px 40px !important;}
+
+    .w3-col,.s4 {padding: 15px;}
+    .mom{text-align:center;color: #415680;font-size: 18px;}
+    .nav3{position: fixed;
+      z-index: 100;
+      width: 100%;
+      background: #fff;
+      max-width: 1600px;
+      margin: 0 auto;}
+      .margin{margin: 0px -15px}
+      .w3-image {
+        max-width: 100%;
+        height: auto;
+        max-height: 816px;
+      }
+
+      /*11111111111111111111111111111111111111111111111111111111*/
+      .hero-mosaic {
+        position: relative;
+      }
+
+      .hero-mosaic:before {
+        content: '';
+        width: 100%;
+        padding-top: 53%;
+        display: block;
+      }
+
+      .hero-mosaic .bg {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .hero-mosaic .bg-1 {
+        background-color: #dec7b6;
+        width: 25%;
+        height: 100%;
+      }
+
+      .hero-mosaic .bg-2 {
+        background-color: #9daf89;
+        left: 25%;
+        width: 21%;
+        height: 37%;
+      }
+
+      .hero-mosaic .bg-3 {
+        background-color: #c8d5e3;
+        left: 46%;
+        width: 54%;
+        height: 67%;
+      }
+
+      .hero-mosaic .bg-4 {
+        background-color: #e9e5df;
+        top: 29%;
+        left: 25%;
+        width: 21%;
+        height: 30%;
+      }
+
+      .hero-mosaic .bg-5 {
+        background-color: #f7f5f2;
+        left: 25%;
+        top: 55%;
+        width: 35%;
+        height: 45%;
+      }
+
+      .slider-for {
+        max-width: 860px;
+        width:  100%;
+        margin: 0 auto !important;
+        margin-bottom: 0 !important;
+      }
+
+      .slider-nav {
+        max-width: 843px;
+        margin: 0 auto !important;
+        overflow: hidden !important;
+        height: 55px;
+        position: absolute !important;
+        bottom: 10px;
+        left: 0.1% !important;
+        top: auto !important;
+        opacity: 1 !important;
+        z-index: 10000 !important;
+      }
+
+      .slider-nav img {
+        cursor: pointer;
+      }
+
+      .footer-bottom {
+        border-bottom: 1px solid #0051a9;
+      }
+
+      .slider-nav img {
+      }
+
+      .slider-nav .slick-current {
+        padding-top: 0px;
+        border: solid 2px #41567f;
+      }
+
+      .one-time {
+        max-width: 996px;
+        width:  100%;
+        height: 480px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .one-time img{
+       height: 580px;
+     }
+
+     .logo-box {
+      background-color: #bec9c9 !important;
+    }
+
+    .hero-mosaic .bg-6 {
+      background-color: #bf9a5e;
+      top: 67%;
+      left: 60%;
+      width: 25.5%;
+      height: 33%;
+    }
+
+    .hero-mosaic .bg-7 {
+      background-color: #9daf89;
+      top: 67%;
+      left: 85.5%;
+      width: 14.5%;
+      height: 33%;
+    }
+
+    .hero-mosaic .bg-7 .table-align {
+      height: 100%;
+      position: relative;
+      width: 100%;
+      background-image: url(../gallery/horizontal28.jpg) !important;
+      background-position:  center;
+      background-size: cover;
+      background-repeat:  no-repeat;
+    }
+
+    .hero-mosaic .bg-7 .padding {
+      /* padding: 10px 15px; */
+    }
+
+    .hero-mosaic .bg-7 .btn.naked {
+      color: #71835d;
+    }
+
+    .hero-mosaic a {
+
+      font-weight: normal;
+      letter-spacing: 0.1em;
+      line-height: 1.2;
+      color: #6f805d;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-size: 1.2rem;
+    }
+
+    .hero-mosaic a .title {
+      color: white;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .hero-mosaic a .icon {
+      display: inline-block;
+      position: relative;
+      top: 2px;
+      transition: transform 0.4s ease-in-out;
+      margin-left: 10px;
+    }
+
+    html:not(.mobile):not(.tablet) .hero-mosaic a:hover .icon,
+    html:not(.mobile):not(.tablet) .hero-mosaic a:focus .icon,
+    .hero-mosaic a.on_press .icon {
+      -ms-transform: translateX(2px);
+      transform: translateX(2px);
+    }
+    .hero-mosaic .emblem {
+      z-index: 3;
+    }
+
+    .hero-mosaic .emblem img {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 269px;
+      display: block;
+      margin-top:  -13px !important;
+      bottom: 10px;
+    }
+    .slick-slide img{width: 100%;width: 75px !important;}
+    /*slider*/
+    * {box-sizing:border-box;}
+    body {font-family: Verdana,sans-serif;margin:0}
+    .mySlides {display:none}
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    .con i {
+      display: inline-block;
+      width: 32px;
+      color: #393b36 !important;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor:pointer;
+      height: 13px;
+      width: 13px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    /*/slider*/
+    @media only screen and (max-width: 1280px){
+      .topnav{width:100%;}
+    }
+    .rio-promos img{height:280px;box-shadow: 8px 8px 10px 0px #c8d5e3;}
+    @media only screen and (max-width: 960px){
+      .map1{position: inherit !important;height: 380px;width: 100%;}
+      .con{position: initial !important;width: 100%;}
+      .map{display:block !important;
+       height:auto !important;
+       background:#fff;}
+       .rio-promos img{height: 175px;}
+       #hostel{display:none !important;}
+       .slick-slide{margin: 0 8px;}
+       .footer-left,.footer-right{display:none;}
+       .container4{padding: 100px 0 !important;}
+       }.rio-promos img
+       @media only screen and (max-width: 1024px){
+        .topnav{width:100%;}
+        .map{
+          height: 454px;
+        }
+        #hostel{font-size:17px;padding-top:32px;}
+        #hostel2{padding-top: 20px;}
+      }
+
+      @media only screen and (min-width: 481px){
+        footer.main .logo-box {
+          padding-top: 20px;
+          }}
+          @media only screen and (max-width: 770px){
+
+            .slider-nav{display:none !important;}
+            .hero{padding-top: 454px;}
+            .title1{
+              padding: 25px 0;
+              text-align: center;
+            }
+            .title-box1{
+              height: 90px;
+              width: 100%;
+              top: -90px;
+              z-index: 10;
+            }
+            .food{
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 519px;
+            }
+            .menu{background:#383a35;}
+            .topnav{
+              width:100%;
+              height:45px;
+              border-top:0;
+              background: #415680;
+              z-index: 10000;
+            }
+            button.slick-prev,button.slick-next,button.slick-prev:hover,button.slick-next:hover
+            {
+             width: 37px;
+             background-size: 37px;
+             height: 37px;
+             top: calc(50% - 10px);
+           }
+           .book {background: #bec9c9;}
+           #hostel{z-index:0;}
+           #hostel2{z-index:0;display: none!important;}
+           .topnav a.icon {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 110px;
+          }
+          .container4 {
+            padding: 45px 0 !important;}
+            .myfa{display:block;width: 95px;z-index: 10000000000;height: 45px;}
+            .slick-center{padding-top:20px;}
+            div .book{
+              color:#fff;
+              position:absolute;
+              height:45px;
+              right:0;
+              padding: 0;
+              font-size: 14px;
+              width: 100%;
+              line-height: 45px;
+            }
+            .container2{padding: 0 30px;
+              margin: 0 auto;
+              display: block;
+              position: relative;
+              max-width: 1240px;}
+
+              .icon h2{color: #bec9c9;font-size:16px;display:inline-block;font-family: "ALK Rounded Mtav Med", sans-serif;font-weight: bold;}
+              .topnav div a:hover{background:#ceb182;opacity:1;}
+              .topnav a{line-height:45px;}
+              .topnav li{display:none;}
+              .topnav a:hover{background:transparent;opacity:1;}
+              .logo{padding-top:120px; }
+            }
+            .logo-center{position: absolute;
+             left: 28.5%;
+             top: -67px;
+             width: 43%;}
+             .des{
+               max-width: 465px;
+               font-size: 22px;
+               padding-top: 205px;
+               padding-bottom:130px;
+             }
+             .des h4{color: #41567f;}     
+
+             @media only screen and (min-width:770px){
+              .responsive{display:none;}
+              .logo{padding-top:170px; }
+            }
+            @media only screen and (max-width:480px){
+             .icon1.w3-col.m3.s6 {
+              width: 100%;
+            }
+            .container8 {
+              padding: 0;
+              text-align: center;
+              font-weight: bolder;
+            }
+
+            .hostel{
+              top: -82px;
+              left: 12.5%;
+              width: 65%;
+            }
+            .des h4{text-align:center;}
+            .about p{text-align:center;}      
+            .container3 p{text-align:center;}       
+            .logo-center{
+              left: 22.5%;
+              top: -46px;
+              width: 55%;
+            }
+            .logo{padding-top: 70px;}
+            .slogan{display:none;}
+            .body{padding-top:130px;}
+          }
+          @media only screen and (min-width: 2000px){
+           .container1{max-width: 1900px;}
+           .container7{max-width: 1480px;}
+           .container8{padding:230px 0 50px 50px}
+           .nav3{
+            max-width: 1900px;
+          }
+          .topnav a {font-size: 26px;
+            line-height: 130px;}
+            .food{height:490px;
+             bottom:-158px;}
+             .title-box1{height:390px;
+               bottom:-158px;}
+               .des{max-width:85%;
+                 font-size:30px;}
+                 .container3 p{font-size:33px;}
+               }
+
+
+
+               /*22222222222222222222222222222222222222222222222222222222222222222222222222*/
+
+
+
+               .footer-social iframe {
+                height: 20px;
+                position: relative;
+                width: 180px;
+              }
